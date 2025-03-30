@@ -177,6 +177,7 @@ input:disabled, textarea:disabled {
   position: relative;
   background: #FFF;
   border-radius: 2rem;
+  border: 10px solid #FFF;
   overflow: hidden;
 }
 
@@ -328,6 +329,9 @@ input:disabled, textarea:disabled {
   overflow: visible;
 }
 .mobile-sliderbox .swiper-slide img{
+  height: 55rem;
+  border-radius: 2rem;
+  border: 10px solid #FFF;
   transition: transform 0.3s;
 }
 .mobile-sliderbox .swiper-slide-next img{
